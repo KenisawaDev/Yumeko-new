@@ -1,5 +1,5 @@
 //Caso for respostar deixar os créditos para mim by: 558596822126 MEU CANAL https://www.youtube.com/@pxzmods
-
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 const {default: AnyWASocket,
 delay,templateMessage,makeInMemoryStore,downloadContentFromMessage,DisconnectReason,useSingleFileAuthState } = require ('@adiwajshing/baileys')
 const fs = require("fs")
